@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "sunu-idees-vite",
+  "version": "1.0.0",
+  "description": "Boîte à idées numérique, collaborative et anonyme pour la promo P9 de Simplon.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.107.0"
+  }
+}
