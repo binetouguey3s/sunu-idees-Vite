@@ -70,10 +70,34 @@ sunu-idees-vite/
 
 ##  Variables d'environnement
 
-`.env`
+Crée un fichier `.env` à la racine en me basant sur `.env.example` :
+
+```
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+OPENROUTER_API_KEY=
+
+```
 
 
 ##  Lancement du projet en local
 
-`npm run dev`
+```bash
+# Cloner le dépôt
+git clone https://github.com/binetouguey3s/sunu-idees-Vite.git
+
+# Aller dans le dossier
+cd sunu-idees-Vite
+
+# Installer les dépendances
+npm install
+
+# Créer le fichier .env à partir de l'exemple
+cp .env.example .env
+# Remplis les variables dans .env
+
+# Lancer le serveur de développement
+npm run dev
+```
+
 
